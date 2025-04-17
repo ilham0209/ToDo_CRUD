@@ -1,3 +1,16 @@
+ToDo_CRUD
+
+ToDo_CRUD is a simple yet functional web application developed using the Next.js framework.This project focuses on demonstrating the core CRUD (Create, Read, Update, Delete) operations in a clear and straightforward manner.
+
+The application successfully implements the following key features:
+1 .Adding items to the list through a form with all required fields
+2 .Removing items from the list using dedicated delete buttons
+3 .Summarizing the list by displaying a count of total items
+4 .Persisting data locally using localStorage, allowing the list to remain even after refreshing
+the page
+This project is designed to showcase how CRUD operations can be implemented effectively in a
+modern web framework like Next.js.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -15,22 +28,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
